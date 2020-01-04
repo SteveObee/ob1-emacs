@@ -1,0 +1,91 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Jan  4 18:08:30 2020
+;; Desktop file format version 208
+;; Emacs version 26.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24080 54430 40649 851000) (desktop . "208") "steve@Arch-ob1" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-MS  -Consolas-normal-normal-normal-*-21-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "gray80") (background-color . "#181a26") (mouse-color . "black") (border-color . "#14151E") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "white smoke") (sticky) (environment) (powerline-cache) (modeline . t) (unsplittable) (frameset--id . "089E-CF17-1400-C52C") (frameset--mini t . t) (display . ":0") (icon-name) (explicit-name) (frameset--text-pixel-height . 1030) (height . 46) (width . 77) (left . 960) (top . 48)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 88) (min-pixel-width . 120) (min-pixel-height-ignore . 66) (min-pixel-width-ignore . 60) (min-pixel-height-safe . 22) (min-pixel-width-safe . 24)) leaf (pixel-width . 956) (pixel-height . 1008) (total-width . 79) (total-height . 46) (normal-height . 1.0) (normal-width . 1.0) (buffer ".gitignore" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("Fun" "\\(key\\).*?\\(comm\\)" "1" "\\(key\\).*?\\(comm\\)" "tab" "Ja" "che" "cheese" "tes" "te" "Re" "const" "rjs" "Ja"))
+(setq register-alist nil)
+(setq file-name-history '("/home/steve/.emacs.d/.gitignore" "/home/steve/.emacs.d/init.el" "/home/steve/.emacs.d/myinit.org" "/home/steve/.emacs.d/elpa/js-react-redux-yasnippets-20190911.1259/snippets/js-mode/imp" "/home/steve/.emacs.d/elpa/js-react-redux-yasnippets-20190911.1259/si" "/home/steve/.emacs.d/elpa/js-react-redux-yasnippets-20190911.1259/" "/home/steve/.emacs.d/snippets/ima" "/home/steve/.emacs.d/snippets/" "/home/steve/Projects/Jest/test/" "/home/steve/.bashrc" "/home/steve/.emacs.d/#init.el#" "/home/steve/.config/i3/config" "/home/steve/containers/App.js" "/home/steve/components/App2.js" "/home/steve/Projects/React/robofriends/src/containers/App.js" "/home/steve/Projects/React/robofriends/src/containers/Test.js" "/home/steve/.emacs.d"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/steve/.emacs.d/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  '(global-whitespace-mode which-key-mode yas-minor-mode override-global-mode ivy-mode projectile-mode company-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24080 54394 451348 655000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/steve/.emacs.d/myinit.org"
+  "myinit.org"
+  'org-mode
+  '(global-whitespace-mode which-key-mode yas-minor-mode override-global-mode ivy-mode projectile-mode company-mode flycheck-mode org-indent-mode)
+  8566
+  '(2661 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24080 54367 369505 924000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring (1 1 24684 1 2425 2661 2807 2803 2802 3191 3177 3176 3166 3141 3176 8566))))
+
+(desktop-create-buffer 208
+  "/home/steve/Projects/React/robofriends/src/components/Header.js"
+  "Header.js"
+  'rjsx-mode
+  '(rainbow-delimiters-mode global-whitespace-mode which-key-mode yas-minor-mode override-global-mode ivy-mode projectile-mode company-mode flycheck-mode js2-refactor-mode tern-mode prettier-js-mode)
+  286
+  '(317 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode . t) (buffer-display-time 24080 48077 449345 20000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1 45 1 317 1 317 1 317 1 317 1 317 1 317 1 286))))
+
+(desktop-create-buffer 208
+  "/home/steve/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(eldoc-mode global-whitespace-mode which-key-mode yas-minor-mode override-global-mode ivy-mode projectile-mode company-mode flycheck-mode)
+  755
+  '(6012 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24080 48076 825750 681000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (6367 6726 7087 1 105 188 169 105 42 1 7087 7087 1 44 4 755))))
+
+(desktop-create-buffer 208
+  "/home/steve/Projects/React/robofriends/package-lock.json"
+  "package-lock.json"
+  'json-mode
+  '(global-whitespace-mode which-key-mode yas-minor-mode override-global-mode ivy-mode projectile-mode company-mode flycheck-mode js2-minor-mode tern-mode prettier-js-mode)
+  3
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode . t) (buffer-display-time 24080 48075 993657 481000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/steve/Projects/React/robofriends/src/containers/App.js"
+  "App.js"
+  'rjsx-mode
+  '(rainbow-delimiters-mode global-whitespace-mode which-key-mode yas-minor-mode override-global-mode ivy-mode projectile-mode company-mode flycheck-mode js2-refactor-mode tern-mode prettier-js-mode)
+  438
+  '(438 t)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode . t) (buffer-display-time 24080 48055 5976 975000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1610 736 813 656 438 473 850 813 665 736 258 573 438))))
+

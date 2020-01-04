@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/Projects/React/robofriends/" "~/Projects/Jest/test/" "~/Projects/React/emacs-setup/")
